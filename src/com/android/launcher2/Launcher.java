@@ -94,7 +94,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.common.Search;
+//import com.android.common.Search;
 import com.android.launcher.R;
 import com.android.launcher2.DropTarget.DragObject;
 
@@ -1558,8 +1558,8 @@ public final class Launcher extends Activity
             initialQuery = getTypedText();
         }
         if (appSearchData == null) {
-            appSearchData = new Bundle();
-            appSearchData.putString(Search.SOURCE, "launcher-search");
+//            appSearchData = new Bundle();
+//            appSearchData.putString(Search.SOURCE, "launcher-search");
         }
         Rect sourceBounds = new Rect();
         if (mSearchDropTargetBar != null) {
